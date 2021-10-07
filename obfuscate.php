@@ -1,12 +1,7 @@
 <?php
 $title="Text Obfuscation";
 include("/home/maxwedge/public_html/head");
-echo "<TITLE>$title</TITLE></HEAD><DIV ID=\"pageheading\"><H1>$title</H1></DIV>";
-?>
-
-<DIV ID="content">
-    </P>2021/10/06<P>
-<?php
+echo "<TITLE>$title</TITLE></HEAD><H1>$title</H1>";
 # This takes text and and munges it sufficiently in HTML to discourage a simple
 #   copy & paste. Works pretty well against automated content snatchers that
 #   use your content to increase SEO on their ad-riddled spam sites.
@@ -85,7 +80,7 @@ the duck shot back,
                     $msg = " Do your own work!";
                     break;
             }
-# Print the message and a link break.
+# Print the message and a line break.
             echo "<span class=\"$zeroFont\"> $msg</span><BR>";
             $content_char[$i] = "";
 # If the next char is a carriage return, insert a paragraph break.
@@ -119,15 +114,4 @@ thieves are generally too lazy for that.
 <P>
 Copy the text between the lines above and paste it in a text editor to see what
 it does.";
-#php -r 'echo html_entity_decode("&#8217;",ENT_QUOTES,"UTF-8");echo "\n";'
-?>
-</DIV>
-
-<?php
-include("/home/maxwedge/public_html/adtop");		# 728px x 90px
-include("/home/maxwedge/public_html/adlow");
-include("/home/maxwedge/public_html/admid");
-include("/home/maxwedge/public_html/decoder");
-include("/home/maxwedge/public_html/menu");
-#require("/home/maxwedge/public_html/menu");
 ?>
