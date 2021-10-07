@@ -1,6 +1,5 @@
 <?php
 $title="Text Obfuscation";
-include("/home/maxwedge/public_html/head");
 echo "<TITLE>$title</TITLE></HEAD><H1>$title</H1>";
 # This takes text and and munges it sufficiently in HTML to discourage a simple
 #   copy & paste. Works pretty well against automated content snatchers that
