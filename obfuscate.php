@@ -114,4 +114,5 @@ thieves are generally too lazy for that.
 <P>
 Copy the text between the lines above and paste it in a text editor to see what
 it does.";
+# Ex. https://maxwedge.com/otaku/obfuscate.php
 ?>
